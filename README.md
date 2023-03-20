@@ -1,6 +1,6 @@
 # Contacts Project
 
-[Demo](https://antulev.com/contacts).
+[Demo](https://antulev.com/contacts)
 
 ## Available Scripts
 
