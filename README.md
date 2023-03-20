@@ -2,6 +2,9 @@
 
 [Demo](https://antulev.com/contacts)
 
+## Requirements
+- Nodejs v18.12.1
+
 ## Available Scripts
 
 In the project directory, you can run:
