@@ -1,0 +1,193 @@
+.contacts {
+    width: 30vw;
+    min-width: 360px;
+    position: absolute;
+    height: calc(100vh - 4rem);
+    padding: 1rem 0 3rem 1rem;
+    overflow: hidden;
+    background-color: #7f007f;
+    color: #fff;
+    left: 0;
+  }
+  
+  .contacts-container {
+    height: 100%;
+  }
+  
+  .list-head {
+    padding-bottom: 1rem;
+  }
+  
+  .contact-list {
+    padding-right: 1rem;
+    overflow: auto;
+    height: 100%;
+  }
+  
+  .box {
+    padding: 1em 1em 0.5em 1em;
+    margin-bottom: 10px;
+    cursor: pointer;
+    background-color: #fff;
+    color: #7f007f;
+    box-shadow: 1px 1px 1px 1px #f6d5d5;
+    border-radius: 10px;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 2px;
+    background-color: #7f007f;
+  }
+  
+  .contact-details {
+    width: 65vw;
+    right: 0;
+    position: absolute;
+  }
+
+  .contact-details-container{
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  .error-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .contact-input{
+    display: block;
+    text-align: left;
+    padding: 5px;
+    
+  }
+  
+  .contact-input input{
+    margin-left: 2rem;
+  }
+  .contact-input textarea{
+    width: calc(290px + 2rem);
+    height: calc(5rem + 40px);
+  }
+  .contact-input span{
+    width: 120px;
+    display: inline-block;
+  }
+  .left-form{
+    display: inline-block;
+    vertical-align: top;
+  }
+  .right-form{
+    width: 50%;
+    display: inline-block;
+  }
+  .part2-form{
+    margin-top: 2rem;
+  }
+  .details-header{
+    padding: 0.5rem;
+    color: white;
+    background-color: #7f007f;
+    width: 50%;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .active-link .box{
+    background-color: #6c1a7a;
+    color: white;
+  }
+  .popup-content {
+    margin: auto;
+    background: rgb(255, 255, 255);
+    width: 70%;
+    max-width: 800px;
+    padding: 0 2rem 2rem 2rem;
+  }
+  .submit-btn{
+    border: none;
+    font-size: 12px;
+    background-color: #7f007f;
+    color: white;
+    padding: 6px;
+    font-weight: bold;
+    border-radius: 3px;
+  }
+  .confirm-btn{
+    border: none;
+    font-size: 12px;
+    background-color: #7f007f;
+    color: white;
+    padding: 6px;
+    font-weight: bold;
+    border-radius: 3px;
+  }
+  .contact-infor{
+    display: block;
+    text-align: left;
+    padding: 5px;
+    
+  }
+
+  .infor-notes{
+    width: calc(320px) !important;
+    height: calc(5rem + 40px) !important;
+    padding: 1px;
+    border: #7f007f solid 1px;
+    display: inline-block;
+    border-radius: 5px;
+  }
+  .contact-infor span:first-child{
+    width: 120px;
+    display: inline-block;
+  }
+
+  .contact-infor span:nth-child(2){
+    width: 200px;
+    padding: 1.5px 1.5px 1.5px 5px;
+    height: 1.2rem;
+    vertical-align: bottom;
+    border: #7f007f17 solid 1px;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 12px;
+  }
+ 
+  
+  .search-input {
+    font-size: 12px;
+    background: #fff;
+    border: none;
+    outline: none;
+    height: 1.5rem;
+    width: 300px;
+    border-radius: 5px;
+  }
+
+  .add-button{
+    margin-left: 1rem;
+    font-size: 21px;
+    vertical-align: bottom;
+    cursor: pointer;
+  }
+  .contact-actions{
+    text-align: right;
+    color: white;
+    font-size: 12px;
+  }
+  .contact-actions span{
+    margin-left: 0.5rem;
+    cursor: pointer;
+  }
+  .contact-actions span:first-child{
+    color: white;
+  }
+  .contact-actions span:nth-child(2){
+    color: black;
+  }
